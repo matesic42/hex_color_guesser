@@ -63,7 +63,7 @@ function App() {
       </div>
 
       { hasStarted && <p style={{color:isCorrect ? "#9ccfd8" : "#eb6f92"}} className="text-xl">{isCorrect ? "Correct !" : "Wrong !"}</p>}
-      <h2 style={{color:score < 0 ? "#eb6f92" : "#9ccfd8" }} className="text-xl font-medium ">Score : <span className="ml-3">{score}</span></h2>
+      <h2 style={{color:score < 0 ? "#eb6f92" : "#9ccfd8" }} className="text-xl font-medium text-center">Score : <span className=" text-center ml-3">{score}</span></h2>
  
     </div>
   );
